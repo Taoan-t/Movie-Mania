@@ -1,11 +1,3 @@
-/********************************************************************************* 
-* WEB422 – Assignment 2 
-* I declare that this assignment is my own work in accordance with Seneca Academic Policy. 
-* No part of this assignment has been copied manually or electronically from any other source 
-* (including web sites) or distributed to other students. 
-* 
-* Name: Qian Tang  Student ID: 124746207  Date: 2023-02-01 
-* ********************************************************************************/
 let page=1;
 const perPage=10;
 
@@ -53,10 +45,6 @@ function loadMovieData(title = null){
         document.querySelectorAll("#moviesTable tbody tr").forEach((row)=>{
             addClickEventToRow(row);
         });
-        // document.querySelectorAll("#moviesTable tbody tr").map(row=>{
-        //     addClickEventToRow(row);
-        // }); 
-        // why using map() doesn't work here?
     });
 }
 
