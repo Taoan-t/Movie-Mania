@@ -1,0 +1,7 @@
+#moviesTable tr:hover{
+    cursor:pointer; 
+}
+
+#searchButton{
+   margin-right: 5px;
+}
